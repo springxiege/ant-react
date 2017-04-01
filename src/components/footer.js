@@ -10,10 +10,10 @@ class Footer extends Component{
         this.state = {};
     }
     componentDidMount() {
-        
+
     }
     componentWillUnmount() {
-        
+
     }
     render() {
         return (

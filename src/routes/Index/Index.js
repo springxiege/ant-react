@@ -5,16 +5,16 @@ class Index extends Component{
         this.state = {};
     }
     componentDidMount() {
-        
+        document.title = "Hello,World!"
     }
     componentWillUnmount() {
-        
+
     }
     render() {
         return (
             <div>
                 <h1>Hello,World!</h1>
-                <footer style={styles}>This is the Footer Part </footer>
+                <footer />
             </div>
         )
     }
