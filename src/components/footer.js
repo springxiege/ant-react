@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 const styles = {
     "height": "60px",
-    "line-height": "60px",
-    "text-align": "center"
+    "lineHeight": "60px",
+    "textAlign": "center"
 }
-class Footer extends Component{
+export default class Footer extends Component{
     constructor(props) {
         super(props);
         this.state = {};
